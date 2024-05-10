@@ -1,6 +1,6 @@
 ---
 - name: Kickstart Bastion Host with packer.io
-  hosts: localhost
+  hosts: all
   vars_files:
     - vars/vars.yaml
   gather_facts: no
